@@ -374,17 +374,26 @@ header .container ul li .lightbulb:hover svg {
   border: 1px solid rgb(90, 92, 105);
 }
 .section-two .job-row .job-card:nth-child(2) {
-  margin-top: 120px;
+  position: relative;
+  top: 210px;
+}
+@media (max-width: 991px) {
+  .section-two .job-row .job-card:nth-child(2) {
+    top: 0;
+  }
 }
 @media (max-width: 767px) {
   .section-two .job-row .job-card:nth-child(2) {
-    margin-top: 30px;
+    top: 40px;
   }
 }
 @media (max-width: 767px) {
   .section-two .job-row .job-card {
     width: 90%;
     margin: 10px auto 0;
+  }
+  .section-two .job-row .job-card h3 {
+    font-size: 1.9rem;
   }
 }
 .section-two .job-row .job-card h4 {

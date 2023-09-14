@@ -83,18 +83,12 @@ header {
     justify-content: space-between;
 
     .left {
-      // h2 {
-      //   margin-bottom: 0;
-      //   font-weight: 700;
-      //   letter-spacing: -5px;
-      //   font-family: 'Ubuntu', sans-serif;
-
-      //   a {
-      //     text-decoration: none;
-      //     color: var(--buttons);
-      //     padding-right: 9px;
-      //   }
-      // }
+      display: flex;
+      align-items: center;
+      img {
+        height: auto;
+        width: 60px;
+      }
       @media(max-width: 767px) {
         display: none;
       }
@@ -159,6 +153,7 @@ header {
           &:hover {
             background-color: $main-white;
             border: var(--links-hover) 2px solid;
+            cursor: pointer;
 
             svg {
               fill: var(--lightbulb-hover);

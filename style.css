@@ -53,6 +53,14 @@ header .container {
   display: flex;
   justify-content: space-between;
 }
+header .container .left {
+  display: flex;
+  align-items: center;
+}
+header .container .left img {
+  height: auto;
+  width: 60px;
+}
 @media (max-width: 767px) {
   header .container .left {
     display: none;
@@ -114,6 +122,7 @@ header .container ul li .lightbulb svg {
 header .container ul li .lightbulb:hover {
   background-color: #f5f7fa;
   border: var(--links-hover) 2px solid;
+  cursor: pointer;
 }
 header .container ul li .lightbulb:hover svg {
   fill: var(--lightbulb-hover);

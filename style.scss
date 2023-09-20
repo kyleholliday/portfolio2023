@@ -85,10 +85,12 @@ header {
     .left {
       display: flex;
       align-items: center;
+
       img {
         height: auto;
         width: 60px;
       }
+
       @media(max-width: 767px) {
         display: none;
       }
@@ -446,6 +448,7 @@ header {
         @media(max-width: 991px) {
           top: 0;
         }
+
         @media(max-width: 767px) {
           top: 40px;
         }
@@ -454,6 +457,7 @@ header {
       @media(max-width: 767px) {
         width: 90%;
         margin: 10px auto 0;
+
         h3 {
           font-size: 1.9rem;
         }
@@ -587,6 +591,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 3;
+
     @media(max-width: 767px) {
       width: 90%;
       margin: 0 auto;
@@ -640,11 +645,13 @@ header {
       background-color: var(--buttons-hover);
       color: var(--buttons-text-hover);
     }
+
     @media(max-width: 767px) {
       width: 100%;
+
       &.contact {
         margin: 0 0 20px;
-      } 
+      }
     }
   }
 }
